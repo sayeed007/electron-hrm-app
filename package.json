@@ -17,7 +17,8 @@
     "build:mac": "npm run build && electron-builder --mac",
     "build:linux": "npm run build && electron-builder --linux",
     "validatei18": "node scripts/validatei18json.js",
-    "generatei18": "node scripts/generateMissingKeys.js"
+    "generatei18": "node scripts/generateMissingKeys.js",
+    "generatei18Translate": "node scripts/generateMissingKeysWithTranslate.js"
   },
   "dependencies": {
     "@electron-toolkit/preload": "^3.0.1",
